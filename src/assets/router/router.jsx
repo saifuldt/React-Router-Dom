@@ -5,6 +5,7 @@ import Contact from "../page/Contact";
 import Home from './../page/Home';
 import SignUp from "../page/SignUp";
 import Login from "../page/Login";
+import NotFound from "../page/NotFound";
 
 
 
@@ -31,9 +32,9 @@ const router = createBrowserRouter([{
         {
             path: "/sign-up",
             element: <SignUp />,
-        },
-       
-    ],
+        }
+    ]
+
 }])
 
 
